@@ -36,7 +36,7 @@ public class UnifiNetLogInActivity extends Activity {
 	ImageView g;
     @Override
     public void onCreate(Bundle savedInstanceState) {
-    	 requestWindowFeature(Window.FEATURE_NO_TITLE);
+    	requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
@@ -142,11 +142,11 @@ public class UnifiNetLogInActivity extends Activity {
     		finish();
     		super.onBackPressed();
     	}
-	    }
+	}
     @Override
 	protected void onDestroy(){
     	super.onDestroy();
-    	Log.i("attivitï¿½", "distrutta");
+    	Log.i("attività", "distrutta");
     }
     private void avviaServizio() {
 		startService(new Intent(this, ServizioUni.class));
