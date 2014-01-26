@@ -31,7 +31,6 @@ public class Worker extends Thread{
         active = true;
     }
 
-
     public void stopThread(){
         active = false;
     }

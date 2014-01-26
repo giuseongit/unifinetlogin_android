@@ -21,37 +21,41 @@
         android:layout_height="wrap_content"
         android:text="@string/pwd"
         android:id="@+id/textView2"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="57dp"
         android:textSize="24sp"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/matri"
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView" />
 
     <EditText
         android:layout_width="190dp"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:layout_alignTop="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_marginLeft="20dp" />
-
-    <EditText
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/passi"
         android:layout_alignTop="@+id/textView2"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText" />
+        android:layout_alignRight="@+id/matri"
+        android:layout_alignEnd="@+id/matri" />
 
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/start"
-        android:id="@+id/button"
-        android:layout_marginTop="81dp"
-        android:layout_below="@+id/editText2"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/btn"
+        android:layout_marginTop="124dp"
+        android:layout_below="@+id/passi"
+        android:layout_centerHorizontal="true"
+        android:onClick="toggle" />
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/matri"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_marginLeft="20dp"
+        android:maxLength="7" />
 
 </RelativeLayout>
