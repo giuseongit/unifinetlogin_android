@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">Unifinetlogin</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="matr">Matricola</string>
+    <string name="pwd">Password</string>
+    <string name="start">avvia</string>
+    <string name="stop">ferma</string>
 
 </resources>
