@@ -1,4 +1,4 @@
-package it.unifitools.unifinetlogin;
+package it.unifiTools.unifiNetLogIn;
 
 import java.io.OutputStreamWriter;
 import java.io.InputStreamReader;
@@ -12,7 +12,7 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.HttpsURLConnection;
 import android.util.Log;
 
-import static it.unifitools.unifinetlogin.main.*;
+import static it.unifiTools.unifiNetLogIn.main.*;
 
 /**
  * @author giuse

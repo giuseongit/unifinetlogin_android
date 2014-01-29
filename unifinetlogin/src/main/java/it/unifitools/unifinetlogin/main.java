@@ -1,4 +1,4 @@
-package it.unifitools.unifinetlogin;
+package it.unifiTools.unifiNetLogIn;
 
 import android.app.Activity;
 import android.os.Bundle;

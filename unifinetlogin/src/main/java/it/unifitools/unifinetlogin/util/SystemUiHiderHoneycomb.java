@@ -1,4 +1,4 @@
-package it.unifitools.unifinetlogin.util;
+package it.unifiTools.unifiNetLogIn.util;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
