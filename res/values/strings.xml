@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="hello">Hello World, UnifiNetLogInActivity!</string>
-    <string name="app_name">unifiNetLogin</string>
-    <string name="png">png</string>
-    <string name="matricola">Matricola</string>
-
-</resources>
