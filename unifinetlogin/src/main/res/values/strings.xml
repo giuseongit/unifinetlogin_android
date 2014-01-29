@@ -6,5 +6,10 @@
     <string name="pwd">Password</string>
     <string name="start">avvia</string>
     <string name="stop">ferma</string>
+    <string name="help">Info</string>
+    <string name="help1">Unifinetlogin - versione Android</string>
+    <string name="help2">Uso</string>
+    <string name="help3">Dopo aver lanciato il servizio, per tornare ad utilizzare il dispositivo mantenendo il servizio attivo
+    premere il tasto HOME, per chiudere l\'applicazione e fermare il servizio premere il tasto BACK</string>
 
 </resources>

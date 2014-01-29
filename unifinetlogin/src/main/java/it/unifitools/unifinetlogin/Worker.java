@@ -26,7 +26,6 @@ public class Worker extends Thread{
 
 
     public Worker(String matr, String pass){
-        Log.i(appTag,"I parametri passati al thread sono "+matr+" e "+pass);
         this.matr = matr;
         this.pass = pass;
         active = true;
@@ -71,15 +70,15 @@ public class Worker extends Thread{
                     }
                 }
 
-               /* URL host = new URL("https://1.1.1.1/login.html");
+                URL host = new URL("https://1.1.1.1/login.html");
                 URLConnection conn = host.openConnection();
                 conn.setDoOutput(true);
                 OutputStreamWriter out = new OutputStreamWriter(conn.getOutputStream());
                 out.write(data);
-                out.flush();*/
+                out.flush();
                 Log.i(appTag,"HTTP Req sent");
 
-               /* BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+                BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                 @SuppressWarnings("unused")
                 String _page = "";
                 String line;
@@ -87,7 +86,7 @@ public class Worker extends Thread{
                     _page += line;
                 }
                 out.close();
-                in.close();*/
+                in.close();
             }catch(Exception e){
                 Log.i(appTag,"Errore di connessione:\n"+e);
             }
