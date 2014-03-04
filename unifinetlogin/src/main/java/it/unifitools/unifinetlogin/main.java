@@ -87,8 +87,9 @@ public class main extends Activity {
 
         try{
             String ssid = info.getSSID();
-            String temp = ssid.substring(1,6);
-            if(temp.equalsIgnoreCase("unifi")){
+            String temp1 = ssid.substring(1,6);
+            String temp2 = ssid.substring(0,5);
+            if(temp1.equalsIgnoreCase("unifi")||temp2.equalsIgnoreCase("unifi")){
                 return true;
             }
         }catch(Exception e){
